@@ -1,0 +1,160 @@
+*{
+  font-family: 'Glacial Indifference', sans-serif;
+}
+
+html{
+  margin: none;
+}
+
+
+body {
+  /* The image used */
+  background-image: url('assets/yogurth.jpg');;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+    font-family: 'Selima', sans-serif;
+    font-size: 70px;
+    margin: 0%;
+    text-align: center;
+    padding:0% 10%;
+    color:rgb(17, 102, 102)}
+
+#instagram{
+    margin: auto;
+    padding: auto;
+    width: 40px;
+}
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+    background-color: #ADD8E6;
+    padding: 0% 10% 0% 0%;
+    border: 100px;
+}
+
+h1{
+  padding-right: 10px;
+  border: 10px;
+  margin-right: 10%;
+  color: rgb(17, 102, 102);
+  display: flex;
+  justify-content: center;
+    text-align: center; 
+    font-family: 'Glacial Indifference', sans-serif; 
+    font-weight: bold; 
+    font-size: 50px;  
+    text-shadow: -1px 0 #c3dbea, 0 1px #fde3ce, 1px 0 #000, 0 -1px #000;
+}
+a {
+    text-decoration: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+}
+
+.slogan img {
+  height: 400px;
+  border-radius: 25%;
+}
+.barraNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+            
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:rgb(17, 102, 102)
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a blue background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:rgba(33, 175, 175, 0.738);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(33, 175, 175, 0.738);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:  #ADD8E6;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  main {
+    height: 100%;
+  }
+  
+ 
